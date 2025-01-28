@@ -18,7 +18,7 @@
 ## 🔧 Como Usar
 1. <strong>Clonar o repositório:</strong>
    ```bash
-   git clone https://github.com/seu-usuario/amigo-secreto.git
+   git clone https://github.com/LauraBarret0/challenge-amigo-secreto.git
 2. <strong>Abrir o projeto: </strong> Abra o arquivo index.html em qualquer navegador.
 3. <strong>Adicionar participantes:</strong>
    * Digite um nome no campo de entrada e clique no botão "Adicionar".
