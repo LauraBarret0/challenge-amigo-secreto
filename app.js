@@ -25,3 +25,17 @@ function mostrarListaAmigos(){
         lista.appendChild(li);
     }
 }
+
+function sortearAmigo(){
+    let resultado = document.getElementById('resultado');
+    resultado.innerHTML = '';
+    if (amigos.length === 0) {
+        alert('Adicione seus amigos.');
+        return;
+    }else{
+        let amigoSecreto = amigos[Math.floor(Math.random() * amigos.length)];
+        let li = document.createElement('li');
+        li.textContent = amigoSecreto;
+        resultado.appendChild(li);
+    }
+}
